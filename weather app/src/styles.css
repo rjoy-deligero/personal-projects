@@ -1,0 +1,76 @@
+.framework-container {
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  border: solid #66bfbf;
+  color: #66bfbf;
+  border-radius: 10px;
+  background: radial-gradient(
+    circle at 0.2% 0.5%,
+    rgb(252, 165, 241) 0%,
+    rgb(181, 255, 255) 100.2%
+  );
+}
+.title-container {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.temparature-container {
+  margin: auto;
+  width: 60%;
+  display: flex;
+}
+
+.icon-container {
+  text-align: center;
+  margin-top: 17px;
+}
+.icon-container img {
+  width: 70px;
+}
+
+.temparature-container .temperature-container {
+  font-size: 80px;
+  display: contents;
+}
+
+.temparature-container .celsius,
+.separator,
+.fahrenheit {
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+.temparature-container button {
+  background-color: transparent;
+  border: none;
+  color: #66bfbf;
+}
+
+form {
+  margin: 20px 50px;
+}
+.row {
+  display: flex;
+}
+
+.search-container input {
+  width: 280px;
+  border: solid #66bfbf;
+}
+
+#current-button {
+  display: flex;
+  border-radius: 10px;
+  color: #66bfbf;
+  background-color: transparent;
+  border-color: violet;
+}
+
+ul {
+  display: flex;
+  text-align: center;
+}
+ul li {
+  list-style-type: none;
+}
