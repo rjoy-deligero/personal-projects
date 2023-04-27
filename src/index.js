@@ -87,7 +87,6 @@ function currentPosition() {
 let currentButton = document.querySelector("#current-button");
 currentButton.addEventListener("click", currentPosition);
 
-const axios = require("axios");
 let lat = 0;
 let lon = 0;
 
